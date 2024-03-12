@@ -5,11 +5,11 @@ import * as yup from "yup"
 
 const schema = yup
   .object({
-   fullName: yup.string().required("ce champ est requis"),
-   email: yup.string().required("ce champ est requis").matches(/^[\w\.-]+@[a-zA-Z\d\.-]+\.[a-zA-Z]{2,}$/,"entrez une email valide"),
-   Number: yup.string().required("ce champ est oubligattoire").matches(/^(\+\d{1,3}\s?)?0[1-9]([ .-]?[0-9]{2}){4}$/,"entrez un numero de telephone valide"),
-   Subject: yup.string().required("ce champ est requis").matches(/^[\w\.-]+@[a-zA-Z\d\.-]+\.[a-zA-Z]{2,}$/,"entrez une email valide"),
-   Message: yup.string().required("ce champ est requis").max(500 ,"maximun 500 caractères").min(50 , "minimun 50 caratères")
+   fullName: yup.string().required("champ requis"),
+   email: yup.string().required("champ requis").matches(/^[\w\.-]+@[a-zA-Z\d\.-]+\.[a-zA-Z]{2,}$/,"entrez une email valide"),
+   Number: yup.string().required("champ requis").matches(/^(\+\d{1,3}\s?)?(\d{9}|\d{2}[ .-]?\d{2}[ .-]?\d{2}[ .-]?\d{2})$/,"entrez un numero de telephone valide"),
+   Subject: yup.string().required("champ requis").matches(/^[\w\.-]+@[a-zA-Z\d\.-]+\.[a-zA-Z]{2,}$/,"entrez une email valide"),
+   Message: yup.string().required("champ requis").max(500 ,"maximun 500 caractères").min(50 , "minimun 50 caratères")
     
   })
   .required()
@@ -43,7 +43,7 @@ function Contact() {
             </div>
             <div className="mb-3 col-6">
                <input
-                  type="email"
+                  type="text"
                   className="form w-100"
                   placeholder="Email Adress"
                   {...register("email")}
@@ -52,7 +52,7 @@ function Contact() {
             </div>
             <div className="mb-3 col-6">
                <input
-                  type="email"
+                  type="text"
                   className="form w-100"
                   placeholder="Mobile Number"
                   {...register("Number")}
@@ -61,7 +61,7 @@ function Contact() {
             </div>
             <div className="mb-3 col-6">
                <input
-                  type="email"
+                  type="text"
                   className="form w-100"
                   placeholder="Email Subject"
                   {...register("Subject")}
