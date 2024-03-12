@@ -138,6 +138,7 @@ nav ul li a:hover {
   box-shadow: 0px 1px 5px 3px #323946;
   height: 300px;
   padding-left: 20px;
+  color: var(--text-color);
 }
 #contact .download {
   background-color: var(--main-color);
