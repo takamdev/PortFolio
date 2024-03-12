@@ -79,7 +79,7 @@ function App() {
                break;
 
             case "contact":
-               console.log(courentElemeneRect.top);
+               
                if (courentElemene.offsetHeight-80 >=  Math.abs(courentElemeneRect.top) && courentElemeneRect.top<150 ) {
                   setEtat({
                      home: "",

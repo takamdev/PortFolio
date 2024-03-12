@@ -2,6 +2,7 @@ import React, { useId } from "react";
 import { useForm } from "react-hook-form"
 import { yupResolver } from "@hookform/resolvers/yup"
 import * as yup from "yup"
+import emailjs from "@emailjs/browser";
 
 const schema = yup
   .object({
@@ -23,7 +24,24 @@ function Contact() {
     } = useForm({
       resolver: yupResolver(schema),
     })
-    const onSubmit = (data) => console.log(data)
+    const onSubmit = (data) => {
+      var templateParams = {
+         fullName: data.fullName,
+         email: data.email,
+         Number: data.Number,
+         Subject: data.Subject,
+         Message: data.Message,
+     };
+      
+     emailjs.send('service_tx0pahk', 'template_jlez49n', templateParams,'ZM_hUk1I2FumtCzBZ')
+         .then(function(response) {
+            console.log('SUCCESS!', response.status, response.text);
+         }, function(error) {
+            console.log('FAILED...', error);
+         });
+
+      
+    }
   
 
    return (
