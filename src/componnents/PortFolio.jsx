@@ -4,7 +4,7 @@ function PortFolio() {
 
    return (
       <section id="portfolio" >
-         <p className="text-center mt-5">
+         <p className="text-center pt-5">
             <span className="display-5 fw-bold">
                Lastet <span style={{ color: "#0EF" }}>Projet</span>
             </span>{" "}

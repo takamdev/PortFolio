@@ -122,6 +122,13 @@ nav ul li a:hover {
   border-radius: 30px;
 }
 
+#contact {
+  position: relative;
+}
+#contact .heading {
+  position: absolute;
+  top: -70px;
+}
 #contact input {
   background-color: var(--second-bg-color);
   border: none;

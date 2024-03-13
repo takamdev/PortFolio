@@ -2,7 +2,7 @@ import { useId } from "react";
 
 function About() {
    return (
-      <section id="about" className="mt-5">
+      <section id="about" className="pt-5">
          <div className="row">
             <div className="col-sm-12 col-sm-6 col-lg-6">
                <img
@@ -13,7 +13,7 @@ function About() {
                />
             </div>
             <div className="col-sm-12 col-sm-6 col-lg-6  pt-5 ps-5">
-               <p style={{ textAlign: "justify" }}>
+               <p  style={{ textAlign: "justify" }}>
                   <span className="display-6 fw-bold">
                      About <span style={{ color: "#0EF" }}>Me</span>
                   </span>{" "}

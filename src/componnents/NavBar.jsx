@@ -31,7 +31,7 @@ function NavBar({ a1, a2, a3, a4, a5 }) {
             >
                <ul className=" link navbar-nav ms-auto mb-2 mb-lg-0">
                   <li>
-                     <a className={`${a1} `} href="#home">
+                     <a className={`${a1} `} href="#">
                         Home
                      </a>
                   </li>

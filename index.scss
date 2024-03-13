@@ -142,6 +142,11 @@ nav {
 }
 
 #contact {
+   position: relative;
+   .heading{
+      position: absolute;
+      top: -70px;
+   }
    input {
       background-color: var(--second-bg-color);
       border: none;

@@ -6,7 +6,7 @@ import Services from "./componnents/Services.jsx";
 import PortFolio from "./componnents/PortFolio.jsx";
 import Contact from "./componnents/Contact.jsx";
 import Footer from "./componnents/Footer.jsx";
-
+import ScrollReveal from "scrollreveal";
 function App() {
    const [element, setElement] = useState({});
    const [etat, setEtat] = useState({
@@ -101,6 +101,15 @@ function App() {
          console.log();
       }
    });
+   ScrollReveal({
+      reset:true,
+      distance:"80px",
+      duration:2000,
+     
+   })
+
+
+
    return (
       <>
          <NavBar

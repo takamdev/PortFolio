@@ -1,8 +1,8 @@
 function Home() {
    return (
-      <section id="home" className="container-fluid mt-3">
+      <section id="home" className="container-fluid">
          <div className="row">
-            <div className="col-sm-12 col-sm-6 col-lg-6  pt-5 ps-5">
+            <div className="textHome col-sm-12 col-sm-6 col-lg-6  pt-5 ps-5">
                <p style={{ textAlign: "justify" }}>
                   <span className="display-6 fw-bold">Hello it's Me</span>{" "}
                   <br />

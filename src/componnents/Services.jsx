@@ -2,7 +2,7 @@ import React, { useId } from "react";
 
 function Services() {
    return (
-      <section id="service" className="mt-5">
+      <section id="service" className="pt-5">
          <p className="text-center mt-5 mb-5">
             <span className="display-5 fw-bold">
                Our <span style={{ color: "#0EF" }}>Services</span>
