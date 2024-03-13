@@ -2,7 +2,7 @@ function Home() {
    return (
       <section id="home" className="container-fluid">
          <div className="row">
-            <div className="textHome col-sm-12 col-sm-6 col-lg-6  pt-5 ps-5">
+            <div className="textHome col-sm-12 col-sm-6 col-lg-6  pt-5 ps-sm-0 ps-lg-5">
                <p className="left" style={{ textAlign: "justify" }}>
                   <span className="display-6 fw-bold">Hello it's Me</span>{" "}
                   <br />
