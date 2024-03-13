@@ -3,15 +3,16 @@ function Home() {
       <section id="home" className="container-fluid">
          <div className="row">
             <div className="textHome col-sm-12 col-sm-6 col-lg-6  pt-5 ps-5">
-               <p style={{ textAlign: "justify" }}>
+               <p className="left" style={{ textAlign: "justify" }}>
                   <span className="display-6 fw-bold">Hello it's Me</span>{" "}
                   <br />
-                  <span className="display-5 fw-bolder">
+                  <span className="display-5 fw-bolder left">
                      {" "}
-                     Takam Loic Junior
+                     Takam Loic Junior{" "}
+                     <br />
+                     And I'm A
                   </span>{" "}
-                  <br />
-                  <span className="fs-3 fw-bold">And I'm a</span>
+                  <span className="fw-bold typetext"></span>
                </p>
                <p className="mt-4">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.

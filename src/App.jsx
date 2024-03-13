@@ -7,6 +7,7 @@ import PortFolio from "./componnents/PortFolio.jsx";
 import Contact from "./componnents/Contact.jsx";
 import Footer from "./componnents/Footer.jsx";
 import ScrollReveal from "scrollreveal";
+import Typed from 'typed.js';
 function App() {
    const [element, setElement] = useState({});
    const [etat, setEtat] = useState({
@@ -24,6 +25,20 @@ function App() {
          portfolio: document.querySelector("#portfolio"),
          contact: document.querySelector("#contact"),
       });
+
+
+      ScrollReveal({
+         reset:true,
+         distance:"100px",
+         duration:2000,
+        
+      })
+      ScrollReveal().reveal(".textHome , .heading",{origin:"top"})
+      ScrollReveal().reveal(".left ",{origin:"left"})
+      ScrollReveal().reveal(".servicebottom ",{origin:"bottom"})
+
+
+   
    }, []);
    function controleNav() {
       for (let key in element) {
@@ -101,14 +116,17 @@ function App() {
          console.log();
       }
    });
-   ScrollReveal({
-      reset:true,
-      distance:"80px",
-      duration:2000,
-     
-   })
-
-
+  
+useEffect(()=>{
+   
+   const typed = new Typed(".typetext", {
+      strings: ['Frontend Developper', 'Blochain Developper','Youtuber'],
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 1000,
+      loop:true
+    });
+},[])
 
    return (
       <>

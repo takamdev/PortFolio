@@ -13,7 +13,7 @@ function About() {
                />
             </div>
             <div className="col-sm-12 col-sm-6 col-lg-6  pt-5 ps-5">
-               <p  style={{ textAlign: "justify" }}>
+               <p className="heading"  style={{ textAlign: "justify" }}>
                   <span className="display-6 fw-bold">
                      About <span style={{ color: "#0EF" }}>Me</span>
                   </span>{" "}
@@ -23,7 +23,7 @@ function About() {
                      Front End Developper!
                   </span>{" "}
                </p>
-               <p className="mt-4">
+               <p className="mt-4 left">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Doloribus quasi qui harum aliquid autem magnam nemo asperiores
                   nostrum facere et? Lorem ipsum dolor sit amet consectetur
@@ -35,7 +35,7 @@ function About() {
 
                <a
                   href="/"
-                  className="btn mt-3 mb-3 fw-bold  rounded-pill download"
+                  className="btn mt-3 mb-3 fw-bold  rounded-pill download left"
                >
                   Read More
                </a>

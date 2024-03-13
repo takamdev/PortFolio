@@ -4,7 +4,7 @@ function Footer() {
    return (
       <footer
          id="footer"
-         className=" pe-5 ps-5 d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
+         className=" left pe-5 ps-5 d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
       >
          <p className="col-md-4 mb-0 fw-bold">
             Copyright &copy; 2024 by Codehal | All Rights Reserved.

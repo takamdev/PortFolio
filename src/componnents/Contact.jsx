@@ -77,7 +77,7 @@ function Contact() {
             id="contact"
            className="pt-5"
          >
-            <p className="text-center">
+            <p className="text-center heading">
             <span className="display-6 fw-bold">
                About <span style={{ color: "#0EF" }}>Me</span>
             </span>
@@ -85,7 +85,7 @@ function Contact() {
            <div  className="d-flex justify-content-center align-items-center">
            <form
                onSubmit={handleSubmit(onSubmit)}
-               className="row col-sm-10 col-lg-8  justify-content-center"
+               className="row col-sm-10 col-lg-8  justify-content-center servicebottom"
             >
                <div className="mb-3 col-6">
                   <input
