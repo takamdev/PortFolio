@@ -82,7 +82,7 @@ function Contact() {
          >
             <p className="text-center heading">
             <span className="display-6 fw-bold">
-               About <span style={{ color: "#0EF" }}>Me</span>
+               Contact <span style={{ color: "#0EF" }}>Me</span>
             </span>
             </p>
            <div  className="d-flex justify-content-center align-items-center">
