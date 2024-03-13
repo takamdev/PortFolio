@@ -32,6 +32,10 @@ function Home() {
                   <a href="">
                      <i className="fa-brands i fa-linkedin-in"></i>
                   </a>
+                  <a href="">
+                  <i className="fa-brands i fa-github"></i>
+                  </a>
+               
                </p>
                <a download={"cv"} href="/images/cv.JPG" className="btn mt-3 mb-3 fw-bold  rounded-pill download">
                   Download CV
