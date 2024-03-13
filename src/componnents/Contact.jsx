@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import emailjs from "@emailjs/browser";
-
+import {toast} from "sonner";
 const schema = yup
    .object({
       fullName: yup.string().required("champ requis"),
@@ -37,8 +37,10 @@ const schema = yup
    .required();
 
 function Contact() {
+
    const {
       register,
+      reset,
       handleSubmit,
       formState: { errors },
    } = useForm({
@@ -62,7 +64,8 @@ function Contact() {
          )
          .then(
             function (response) {
-               console.log("SUCCESS!", response.status, response.text);
+               toast.success("votre message a étés envoyer merci de m'avoir contacter")
+               reset()
             },
             function (error) {
                console.log("FAILED...", error);
