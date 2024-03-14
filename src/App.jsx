@@ -37,7 +37,13 @@ function App() {
       ScrollReveal().reveal(".left ",{origin:"left"})
       ScrollReveal().reveal(".servicebottom ",{origin:"bottom"})
 
-
+      const typed = new Typed(".typetext", {
+         strings: ['Frontend Developper', 'Blochain Developper','Youtuber'],
+         typeSpeed: 100,
+         backSpeed: 100,
+         backDelay: 1000,
+         loop:true
+       });
    
    }, []);
    function controleNav() {
@@ -117,16 +123,6 @@ function App() {
       }
    });
   
-useEffect(()=>{
-   
-   const typed = new Typed(".typetext", {
-      strings: ['Frontend Developper', 'Blochain Developper','Youtuber'],
-      typeSpeed: 100,
-      backSpeed: 100,
-      backDelay: 1000,
-      loop:true
-    });
-},[])
 
    return (
       <>
