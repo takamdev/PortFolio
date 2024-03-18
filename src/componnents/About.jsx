@@ -4,13 +4,8 @@ function About() {
    return (
       <section id="about" className="pt-5">
          <div className="row">
-            <div className="col-sm-12 col-sm-6 col-lg-6">
-               <img
-                  src="/images/toff.png"
-                  className="toff"
-                  height={500}
-                  alt="image"
-               />
+            <div className="col-sm-12 col-sm-6 col-lg-6 justify-content-center ">
+               <img src="/images/toff.png" className=" w-100 h-75 ms-auto me-auto toff"  alt="image" />
             </div>
             <div className="col-sm-12 col-sm-6 col-lg-6  pt-5 ps-5">
                <p className="heading"  style={{ textAlign: "justify" }}>
