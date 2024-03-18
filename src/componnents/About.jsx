@@ -6,8 +6,8 @@ function About() {
          <div className="row">
             <div className="col-sm-12 col-sm-6 col-lg-6">
                <img
-                  src="/images/profil.JPG"
-                  className="w-100"
+                  src="/images/toff.png"
+                  className="toff"
                   height={500}
                   alt="image"
                />

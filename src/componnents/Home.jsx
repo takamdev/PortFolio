@@ -37,12 +37,12 @@ function Home() {
                   </a>
                
                </p>
-               <a download={"cv"} href="/images/cv.JPG" className="btn mt-3 mb-3 fw-bold  rounded-pill download">
+               <a download={"cv"} href="/images/cv.png" className="btn mt-3 mb-3 fw-bold  rounded-pill download">
                   Download CV
                </a>
             </div>
             <div className="col-sm-12 col-sm-6 col-lg-6">
-               <img src="/images/profil.JPG" className="w-100" height={500} alt="image" />
+               <img src="/images/toff.png" className=" w-75 h-75 ms-auto me-auto toff" height={500} alt="image" />
             </div>
          </div>
       </section>
