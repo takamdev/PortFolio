@@ -71,6 +71,7 @@ nav ul li a:hover {
 .imgtoff, #about .toff, #home .toff {
   box-shadow: 0px 20px 20px 0px #0ef;
   animation: tof 4s ease-in-out infinite;
+  border-radius: 40px;
 }
 @media screen and (max-width: 750px) {
   .imgtoff, #about .toff, #home .toff {
@@ -124,14 +125,6 @@ nav ul li a:hover {
 }
 #service .cardServive p {
   color: var(--text-color);
-}
-#service .cardServive p.card-title {
-  font-size: x-large;
-  margin-bottom: 5px;
-  line-height: 50px;
-}
-#service .cardServive p.card-title .icone {
-  color: var(--main-color);
 }
 
 #portfolio .cardServive {

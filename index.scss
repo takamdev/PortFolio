@@ -80,7 +80,7 @@ nav {
  @media screen and (max-width:750px) {
    margin-top: 30px;
  }
-   
+   border-radius: 40px;
 }
 
 @keyframes tof {
@@ -144,28 +144,29 @@ nav {
 
 #service {
    .cardServive {
-      @extend .cummunContent;
+      
+          @extend .cummunContent;
       transform: scaleX(0.9);
       p {
          color: var(--text-color);
       }
-      p.card-title {
-         font-size: x-large;
-         margin-bottom: 5px;
-         line-height: 50px;
-         .icone {
-            color: var(--main-color);
-         }
-      }
+    
       @extend .cummunButton;
+      
+    
+        
    }
 }
 
 #portfolio {
    .cardServive {
+    
       @extend .cummunContent;
       transform: scale(0.8);
       border-radius: 30px;
+
+     
+ 
    }
 }
 
