@@ -14,17 +14,16 @@ function Services() {
                   <p className="card-title fw-bold">
                      <span className="icone">
                         <i
-                           className="fa-solid fa-code"
+                           className="fa-solid fa-code mb-4"
                            style={{ transform: "scale(2.5)" }}
                         ></i>
                      </span>{" "}
                      <br /> Web Developenment
                   </p>
                   <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                      Aliquid commodi similique nemo? Distinctio, veritatis
                      dolores. Consequuntur deserunt enim corporis non maxime
-                    
                   </p>
                   <a href="#" className="btn download rounded-pill">
                      Read More
@@ -36,17 +35,16 @@ function Services() {
                   <p className="card-title fw-bold">
                      <span className="icone">
                         <i
-                           className="fa-solid fa-paintbrush"
+                           className="fa-solid fa-paintbrush mb-4"
                            style={{ transform: "scale(2.5)" }}
                         ></i>
                      </span>{" "}
                      <br /> Graphic Disign
                   </p>
                   <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                      Aliquid commodi similique nemo? Distinctio, veritatis
                      dolores. Consequuntur deserunt enim corporis non maxime
-                    
                   </p>
                   <a href="#" className="btn download rounded-pill">
                      Read More
@@ -59,7 +57,7 @@ function Services() {
                      {" "}
                      <span className="icone">
                         <i
-                           className="fa-solid fa-signal"
+                           className="fa-solid fa-signal mb-4"
                            style={{ transform: "scale(2.5)" }}
                         ></i>
                      </span>{" "}
@@ -69,8 +67,6 @@ function Services() {
                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
                      Aliquid commodi similique nemo? Distinctio, veritatis
                      dolores. Consequuntur deserunt enim corporis non maxime
-                    
-                     
                   </p>
                   <a href="#" className="btn download rounded-pill">
                      Read More
