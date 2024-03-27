@@ -133,7 +133,7 @@ function App() {
             a4={etat.portfolio}
             a5={etat.contact}
          />
-         <main>
+         <main className="m-0 ps-0 pe-0" style={{width:"100wh"}}>
             <Home />
             <About />
             <Services />
