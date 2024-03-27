@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 function NavBar({ a1, a2, a3, a4, a5 }) {
+   let getNav = document.querySelector('#navbarSupportedContent');  
+
+
+  
+   
    return (
 
       <nav className=" fixed-top navbar navbar-expand-lg">
@@ -19,6 +24,7 @@ function NavBar({ a1, a2, a3, a4, a5 }) {
                aria-controls="navbarSupportedContent"
                aria-expanded="false"
                aria-label="Toggle navigation"
+               id="menu"
             >
                <span
                   className="navbar-toggler-icon"
@@ -26,32 +32,32 @@ function NavBar({ a1, a2, a3, a4, a5 }) {
                ></span>
             </button>
             <div
-               className="collapse navbar-collapse"
+               className= {`collapse navbar-collapse`}
                id="navbarSupportedContent"
             >
                <ul className=" link navbar-nav ms-auto mb-2 mb-lg-0">
                   <li>
-                     <a className={`${a1} `} href="#">
+                     <a className={`${a1}`} onClick={()=>{ getNav.classList.remove('show')}} href="#">
                         Home
                      </a>
                   </li>
                   <li>
-                     <a className={`${a2} `} href="#about">
+                     <a className={`${a2}`} onClick={()=>{ getNav.classList.remove('show')}} href="#about">
                         About
                      </a>
                   </li>
                   <li>
-                     <a className={`${a3} `} href="#service">
+                     <a className={`${a3}`} onClick={()=>{ getNav.classList.remove('show')}} href="#service">
                         Service
                      </a>
                   </li>
                   <li>
-                     <a className={`${a4} `} href="#portfolio">
+                     <a className={`${a4}`} onClick={()=>{ getNav.classList.remove('show')}} href="#portfolio">
                         PortFolio
                      </a>
                   </li>
                   <li>
-                     <a className={`${a5} `} href="#contact">
+                     <a className={`${a5} `} onClick={()=>{ getNav.classList.remove('show')}} href="#contact">
                         Contact
                      </a>
                   </li>
