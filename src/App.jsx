@@ -133,7 +133,7 @@ function App() {
             a4={etat.portfolio}
             a5={etat.contact}
          />
-         <main className="ms-0 me-0 ps-0 pe-0" style={{width:"100wh"}}>
+         <main className="ms-0 me-0 ps-0 pe-0 justify-content-center" style={{width:"100wh"}}>
             <Home />
             <About />
             <Services />
