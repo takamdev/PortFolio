@@ -21,7 +21,7 @@ function Home() {
                </p>
                <p className="icones">
                   <a href="">
-                     <i className="fa-brands i fa-facebook-f"></i>
+                     <i className="fa-brands i fa-tiktok"></i>
                   </a>
                   <a href="">
                      <i className="fa-brands i fa-x-twitter"></i>
