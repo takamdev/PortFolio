@@ -38,7 +38,7 @@ function App() {
       ScrollReveal().reveal(".servicebottom ",{origin:"bottom"})
 
       const typed = new Typed(".typetext", {
-         strings: ['Frontend Developper', 'Blochain Developper','Youtuber'],
+         strings: ['Frontend Developper', 'Block-chain Developper','Electronic technician' ,'tiktoker'],
          typeSpeed: 100,
          backSpeed: 100,
          backDelay: 1000,
