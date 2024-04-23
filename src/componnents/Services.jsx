@@ -8,19 +8,19 @@ function Services() {
                Our <span style={{ color: "#0EF" }}>Services</span>
             </span>{" "}
          </p>
-         <div className="row container ms-auto me-auto">
-            <div className="card border-0 cardServive text-center mb-3 col-sm-12 col-md-6 col-lg-4 pe-4 servicebottom ">
-               <div className="card-body w-100 pt-5">
-                  <p className="card-title fw-bold">
-                     <span className="icone">
+         <div className="row  ms-auto me-auto">
+            <div className="border-0  cardServive text-center mb-3 col-sm-12 col-md-6 col-lg-4 ">
+             
+                  <p  className="fw-bold">
+                     <span className="icone pb-1">
                         <i
-                           className="fa-solid fa-code mb-4"
-                           style={{ transform: "scale(2.5)" }}
+                           className="fa-solid fa-code "
+                           style={{ transform: "scale(4)" }}
                         ></i>
                      </span>{" "}
-                     <br /> Web Developenment
+                     <br /> <br /> <span className="fs-2">Web Developenment</span>
                   </p>
-                  <p className="card-text">
+                  <p  className=" text-center fs-5">
                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
                      Aliquid commodi similique nemo? Distinctio, veritatis
                      dolores. Consequuntur deserunt enim corporis non maxime
@@ -28,20 +28,20 @@ function Services() {
                   <a href="#" className="btn download rounded-pill">
                      Read More
                   </a>
-               </div>
+               
             </div>
-            <div className="card border-0 cardServive text-center mb-3 col-sm-12 col-md-6 col-lg-4 servicebottom ">
-               <div className="card-body w-100 pt-5">
-                  <p className="card-title fw-bold">
-                     <span className="icone">
+            <div className=" border-0   cardServive text-center mb-3 col-sm-12 col-md-6 col-lg-4  ">
+              
+                  <p className="fw-bold">
+                     <span className="icone pb-1">
                         <i
-                           className="fa-solid fa-paintbrush mb-4"
-                           style={{ transform: "scale(2.5)" }}
+                           className="fa-solid fa-paintbrush"
+                           style={{ transform: "scale(4)" }}
                         ></i>
                      </span>{" "}
-                     <br /> Graphic Disign
+                     <br /> <br /> <span className="fs-2">Graphic Disign</span>
                   </p>
-                  <p className="card-text">
+                  <p className="text-center fs-5">
                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
                      Aliquid commodi similique nemo? Distinctio, veritatis
                      dolores. Consequuntur deserunt enim corporis non maxime
@@ -49,21 +49,21 @@ function Services() {
                   <a href="#" className="btn download rounded-pill">
                      Read More
                   </a>
-               </div>
+              
             </div>
-            <div className="card border-0 cardServive text-center mb-3 col-sm-12 col-md-6 col-lg-4 servicebottom ">
-               <div className="card-body w-100 pt-5">
-                  <p className="card-title fw-bold">
+            <div className=" border-0 cardServive text-center mb-3 mt-md-4 mt-lg-0 mt-sm-0 col-sm-12 col-md-12 col-lg-4 ">
+               
+                  <p className=" fw-bold">
                      {" "}
-                     <span className="icone">
+                     <span className="icone pb-1">
                         <i
-                           className="fa-solid fa-signal mb-4"
-                           style={{ transform: "scale(2.5)" }}
+                           className="fa-solid fa-signal"
+                           style={{ transform: "scale(4)" }}
                         ></i>
                      </span>{" "}
-                     <br /> Digital Marketing
+                     <br /> <br /> <span className="fs-2">Digital Marketing</span>
                   </p>
-                  <p className="card-text">
+                  <p className="text-center fs-5">
                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
                      Aliquid commodi similique nemo? Distinctio, veritatis
                      dolores. Consequuntur deserunt enim corporis non maxime
@@ -71,7 +71,7 @@ function Services() {
                   <a href="#" className="btn download rounded-pill">
                      Read More
                   </a>
-               </div>
+              
             </div>
          </div>
       </section>

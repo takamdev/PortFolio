@@ -11,7 +11,7 @@ function Home() {
                      Takam Loic Junior{" "}
                      <br />
                      And I'm A
-                  </span>{" "}
+                  </span>{" "} <br />
                   <span className="fw-bold typetext"></span>
                </p>
                <p className="mt-4">
