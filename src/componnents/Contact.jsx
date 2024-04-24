@@ -37,6 +37,7 @@ const schema = yup
    .required();
 
 function Contact() {
+  
 
    const {
       register,
@@ -64,7 +65,9 @@ function Contact() {
          )
          .then(
             function (response) {
-               toast.success("votre message a étés envoyer merci de m'avoir contacter")
+               toast.success("votre message a étés envoyer merci de m'avoir contacter",{
+                  style:{backgroundColor:"#1f242a",color:"#0ef" ,fontWeight:"bold",fontSize:"20px",border:"none",boxShadow:"0px 0px 5px 5px #0ef"}
+               })
                reset()
             },
             function (error) {
