@@ -1,4 +1,4 @@
-import React, { useEffect, useId, useState } from "react";
+import React, { useEffect, useState } from "react";
 import NavBar from "./componnents/NavBar.jsx";
 import Home from "./componnents/Home.jsx";
 import About from "./componnents/About.jsx";
