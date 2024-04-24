@@ -1,6 +1,3 @@
-import React, { useState } from "react";
-import { NavLink } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 function NavBar({ a1, a2, a3, a4, a5 }) {
    let getNav = document.querySelector('#navbarSupportedContent');  
