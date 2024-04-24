@@ -1,6 +1,6 @@
 
 function NavBar({ a1, a2, a3, a4, a5 }) {
-   let getNav = document.querySelector('#navbarSupportedContent');  
+   let getNav = document.querySelector('#menu');  
 
 
   
@@ -34,27 +34,27 @@ function NavBar({ a1, a2, a3, a4, a5 }) {
             >
                <ul className=" link navbar-nav ms-auto mb-2 mb-lg-0">
                   <li>
-                     <a className={`${a1}`} onClick={()=>{ getNav.classList.remove('show')}} href="#">
+                     <a className={`${a1}`} onClick={()=>{ getNav.click()}} href="#">
                         Home
                      </a>
                   </li>
                   <li>
-                     <a className={`${a2}`} onClick={()=>{ getNav.classList.remove('show')}} href="#about">
+                     <a className={`${a2}`} onClick={()=>{ getNav.click()}} href="#about">
                         About
                      </a>
                   </li>
                   <li>
-                     <a className={`${a3}`} onClick={()=>{ getNav.classList.remove('show')}} href="#service">
+                     <a className={`${a3}`} onClick={()=>{ getNav.click()}} href="#service">
                         Service
                      </a>
                   </li>
                   <li>
-                     <a className={`${a4}`} onClick={()=>{ getNav.classList.remove('show')}} href="#portfolio">
+                     <a className={`${a4}`} onClick={()=>{ getNav.click()}} href="#portfolio">
                         PortFolio
                      </a>
                   </li>
                   <li>
-                     <a className={`${a5} `} onClick={()=>{ getNav.classList.remove('show')}} href="#contact">
+                     <a className={`${a5} `} onClick={()=>{ getNav.click()}} href="#contact">
                         Contact
                      </a>
                   </li>
