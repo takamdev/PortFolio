@@ -1,4 +1,4 @@
-import React, { useId } from "react";
+import React, { useId, useState } from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
@@ -37,6 +37,7 @@ const schema = yup
    .required();
 
 function Contact() {
+   const [send , setSend]=useState(false)
   
 
    const {
@@ -48,6 +49,7 @@ function Contact() {
       resolver: yupResolver(schema),
    });
    const onSubmit = (data) => {
+      setSend(true)
       var templateParams = {
          fullName: data.fullName,
          email: data.email,
@@ -65,6 +67,7 @@ function Contact() {
          )
          .then(
             function (response) {
+               setSend(false)
                toast.success("votre message a étés envoyer merci de m'avoir contacter",{
                   style:{backgroundColor:"#1f242a",color:"#0ef" ,fontWeight:"bold",fontSize:"20px",border:"none",boxShadow:"0px 0px 5px 5px #0ef"}
                })
@@ -140,10 +143,20 @@ function Contact() {
                   <p className="text-danger">{errors.Message?.message}</p>
                </div>
                <button
-                  className="btn  download rounded-pill mt-3 mb-5"
+                  
+                  className={`btn border-0  download rounded-pill mt-3 mb-5 ${send && 'disabled'}`}
                   type="submit"
                >
-                  Send Message
+                   {
+                     send ? (
+                         <div className="spinner-border fs-4 m-0 p-0 text-white" role="status">
+                      <span className="visually-hidden">Loading...</span>
+                  </div>
+                     ):(
+                       <span className="fw-bold">send message</span>
+                     )
+                   }
+                 
                </button>
             </form>
            </div>
