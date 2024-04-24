@@ -35,7 +35,7 @@ function App() {
       })
       ScrollReveal().reveal(".textHome , .heading",{origin:"top"})
       ScrollReveal().reveal(".left ",{origin:"left"})
-      ScrollReveal().reveal(".servicebottom ",{origin:"bottom"})
+      ScrollReveal().reveal(".scrollBottom ",{origin:"bottom"})
 
       const typed = new Typed(".typetext", {
          strings: ['Full-stack JavaScript Developper','Electronic technician' ,'tiktoker'],

@@ -9,7 +9,7 @@ function Services() {
             </span>{" "}
          </p>
          <div className="row  ms-auto me-auto">
-            <div className="border-0  cardServive text-center mb-3 col-sm-12 col-md-6 col-lg-4 ">
+            <div className="border-0 scrollBottom cardServive text-center mb-3 col-sm-12 col-md-6 col-lg-4 ">
              
                   <p  className="fw-bold">
                      <span className="icone pb-1">
@@ -30,7 +30,7 @@ function Services() {
                   </a>
                
             </div>
-            <div className=" border-0   cardServive text-center mb-3 col-sm-12 col-md-6 col-lg-4  ">
+            <div className=" border-0 scrollBottom  cardServive text-center mb-3 col-sm-12 col-md-6 col-lg-4  ">
               
                   <p className="fw-bold">
                      <span className="icone pb-1">
@@ -51,7 +51,7 @@ function Services() {
                   </a>
               
             </div>
-            <div className=" border-0 cardServive text-center mb-3 mt-md-4 mt-lg-0 mt-sm-0 col-sm-12 col-md-12 col-lg-4 ">
+            <div className=" border-0 scrollBottom cardServive text-center mb-3 mt-md-4 mt-lg-0 mt-sm-0 col-sm-12 col-md-12 col-lg-4 ">
                
                   <p className=" fw-bold">
                      {" "}
