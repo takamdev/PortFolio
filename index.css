@@ -119,7 +119,7 @@ nav ul li a:hover {
 }
 #home .typetext {
   color: var(--main-color);
-  font-size: clamp(16px, 5vw, 40px);
+  font-size: clamp(16px, 5vw, 35px);
 }
 #service .cardServive:hover {
   transform: scale(0.82) !important;
