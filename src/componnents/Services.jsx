@@ -18,7 +18,7 @@ function Services() {
                            style={{ transform: "scale(4)" }}
                         ></i>
                      </span>{" "}
-                     <br /> <br /> <span className="fs-2">Web Developenment</span>
+                     <br /> <br /> <span className="fs-3">Web Developenment</span>
                   </p>
                   <p  className=" text-center fs-5">
                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -39,7 +39,7 @@ function Services() {
                            style={{ transform: "scale(4)" }}
                         ></i>
                      </span>{" "}
-                     <br /> <br /> <span className="fs-2">Graphic Disign</span>
+                     <br /> <br /> <span className="fs-3">Graphic Disign</span>
                   </p>
                   <p className="text-center fs-5">
                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -61,7 +61,7 @@ function Services() {
                            style={{ transform: "scale(4)" }}
                         ></i>
                      </span>{" "}
-                     <br /> <br /> <span className="fs-2">Digital Marketing</span>
+                     <br /> <br /> <span className="fs-3">Digital Marketing</span>
                   </p>
                   <p className="text-center fs-5">
                      Lorem ipsum dolor sit amet consectetur adipisicing elit.

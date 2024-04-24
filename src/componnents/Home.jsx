@@ -12,7 +12,7 @@ function Home() {
                      <br />
                      And I'm A
                   </span>{" "} <br />
-                  <span className="fw-bold typetext"></span>
+                  <span className="fw-bold fs-2 typetext"></span>
                </p>
                <p className="mt-4">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
