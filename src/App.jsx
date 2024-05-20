@@ -8,8 +8,22 @@ import Contact from "./componnents/Contact.jsx";
 import Footer from "./componnents/Footer.jsx";
 import ScrollReveal from "scrollreveal";
 import Typed from 'typed.js';
+import Modal from "./componnents/Modal.jsx";
+
+import { create } from 'zustand'
+
+export const useStore = create((set) => ({
+   modTitle: "",
+   textMod:"",
+  updateTitle: (title) => set(() => ({ modTitle:title})),
+  updateText: (text) => set(() => ({ textMod:text})),
+  
+}))
+
 function App() {
    const [element, setElement] = useState({});
+   const modTitle = useStore((state) => state.modTitle)
+   const textMod = useStore((state) => state.textMod)
    const [etat, setEtat] = useState({
       home: "active",
       about: "",
@@ -17,6 +31,7 @@ function App() {
       portfolio: "",
       contact: "",
    });
+
    useEffect(() => {
       setElement({
          home: document.querySelector("#home"),
@@ -46,6 +61,9 @@ function App() {
        });
    
    }, []);
+
+ 
+
    function controleNav() {
       for (let key in element) {
          let courentElemene = element[key]
@@ -134,6 +152,7 @@ function App() {
             a5={etat.contact}
          />
          <main className="ms-0 me-0 ps-0 pe-0 justify-content-center" style={{width:"100wh"}}>
+            <Modal title={modTitle} text={textMod}/>
             <Home />
             <About />
             <Services />

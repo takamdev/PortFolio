@@ -15,9 +15,7 @@ function Home() {
                   <span className="fw-bold typetext"></span>
                </p>
                <p className="mt-4">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Doloribus quasi qui harum aliquid autem magnam nemo asperiores
-                  nostrum facere et?
+               full-stack javaScript developer and electronic technician with a passion for innovate technologies , especially blockchain
                </p>
                <p className="icones">
                   <a href="">

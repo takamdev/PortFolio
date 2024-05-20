@@ -158,7 +158,7 @@ nav {
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      gap:10px;
+      gap:3px;
       @extend .cummunContent;
       p {
          color: var(--text-color);
@@ -169,8 +169,25 @@ nav {
    }
 }
 
+.serviceModal{
+   .icone{
+      color:  var(--main-color);
+      padding-bottom: 10px;
+   }
+   border-radius: 7px;
+   background-color: var(--second-bg-color);
+   box-shadow: 0px 1px 5px 3px #323946;
+   p {
+      color: var(--text-color);
+   }
+   .modal-header{
+      border-color: #0ef;
+      
+   }
+
+}
 #portfolio {
-   .cardServive {
+   .cardServive  {
       position: relative !important;
    
       background-color: inherit;
@@ -178,7 +195,7 @@ nav {
       transform: scale(0.9);
       border-radius: 30px;
    }
-   .servicebottom {
+   .servicebottom{
       background: linear-gradient(rgba(0, 0, 0, 0.1),var(--main-color) );
       position: absolute !important;
       visibility: hidden !important;

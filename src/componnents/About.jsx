@@ -13,17 +13,13 @@ function About() {
                   <br />
                   <span className=" display-6 fw-bolder">
                      {" "}
-                     Front End Developper!
+                     Full-Stack Developper!
                   </span>{" "}
                </p>
-               <p className="mt-4 left">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Doloribus quasi qui harum aliquid autem magnam nemo asperiores
-                  nostrum facere et? Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. Eligendi, beatae repellendus. Quibusdam
-                  mollitia hic sunt vitae ducimus optio distinctio autem. Minus,
-                  excepturi beatae! Beatae, alias facilis tenetur autem totam
-                  fuga?
+               <p className="mt-4 fs-5 left">
+                  Full-Stack JavaScript developer with three years experience in web development
+                  and a solid background in electronics.Passionate about innovate technologies ,i'm currently
+                  training in blockchain to broaden my skills and explore new opportunities.
                </p>
 
                <a

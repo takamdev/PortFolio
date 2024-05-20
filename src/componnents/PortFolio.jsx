@@ -17,8 +17,8 @@ function PortFolio() {
             <div className="card border-0 scrollBottom cardServive text-center mt-4 p-0 mb-3 col-sm-12 col-md-6 col-lg-4  ">
                 <img id="image" onClick={()=>{ReDirection('https://africa-space-react-httc.netlify.app/')}} role="button" className="m-0 p-0 w-100 h-100 " style={{borderRadius:"20px"}} src="/images/portfolio1.jpg" alt="image" />
                 <div className="w-100 h-100 text-white servicebottom">
-                       <p className="fs-1 fw-bold">Gallery Artistique</p>
-                       <p className="fs-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam voluptate!</p>
+                       <p className="fs-1 fw-bold">Art gallery</p>
+                       <p className="fs-4">Art gallery for AfricaSpace for viewing and selling African artworks</p>
                         <a className="text-secondary fs-5" href="https://africa-space-react-httc.netlify.app/"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
@@ -26,7 +26,7 @@ function PortFolio() {
                <img onClick={()=>{ReDirection('https://e-learningdev.netlify.app')}} role="button" className="m-0 p-0 w-100 h-100 image" style={{borderRadius:"20px"}} src="/images/portfolio2.jpg" alt="image" />
                <div className="w-100 h-100 text-white servicebottom">
                        <p className="fs-1 fw-bold">E-Learning site</p>
-                       <p className="fs-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam voluptate!</p>
+                       <p className="fs-4">A site for learning a number of IT professions particularly programming</p>
                         <a className="text-secondary fs-5" href="https://e-learningdev.netlify.app"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
