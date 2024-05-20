@@ -190,6 +190,12 @@ nav ul li a:hover {
   padding-top: 13px;
   border-radius: 100%;
 }
+@media screen and (max-width: 900px) {
+  #portfolio .servicebottom {
+    visibility: visible !important;
+    transform: translateY(0%) !important;
+  }
+}
 #portfolio .card:hover .servicebottom {
   visibility: visible !important;
   transform: translateY(0%) !important;

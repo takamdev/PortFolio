@@ -21,13 +21,13 @@ function Home() {
                   <a href="">
                      <i className="fa-brands i fa-tiktok"></i>
                   </a>
-                  <a href="">
+                  <a href="https://x.com/Takamloicjunior?s=09">
                      <i className="fa-brands i fa-x-twitter"></i>
                   </a>
                   <a href="">
                      <i className="fa-brands i fa-linkedin-in"></i>
                   </a>
-                  <a href="">
+                  <a href="https://github.com/takamdev">
                   <i className="fa-brands i fa-github"></i>
                   </a>
                

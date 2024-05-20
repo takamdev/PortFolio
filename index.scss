@@ -217,7 +217,10 @@ nav {
          padding-top: 13px;
          border-radius: 100%;
       }
-      
+      @media screen and (max-width:900px) {
+         visibility: visible !important;
+         transform: translateY(0%) !important;
+      }
    }
 
    .card:hover .servicebottom{
