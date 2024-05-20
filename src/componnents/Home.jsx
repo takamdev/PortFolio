@@ -25,9 +25,6 @@ function Home() {
                      <i className="fa-brands i fa-x-twitter"></i>
                   </a>
                   <a href="">
-                     <i className="fa-brands i fa-instagram"></i>
-                  </a>
-                  <a href="">
                      <i className="fa-brands i fa-linkedin-in"></i>
                   </a>
                   <a href="">
