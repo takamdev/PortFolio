@@ -53,7 +53,7 @@ function App() {
       ScrollReveal().reveal(".scrollBottom ",{origin:"bottom"})
 
       const typed = new Typed(".typetext", {
-         strings: ['Full-stack JavaScript Developper','Electronic technician' ,'tiktoker'],
+         strings: ['web and mobile Developper','Electronic technician' ,'tiktoker'],
          typeSpeed: 100,
          backSpeed: 100,
          backDelay: 1000,
