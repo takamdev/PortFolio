@@ -14,16 +14,16 @@ function Home() {
                   <br />
                   <span className="fw-bold typetext"></span>
                </p>
-               <p className="">
-                  An electrical technician for over 2 years, I'm passionate
-                  about innovative technologies ranging from web2 with standard
-                  web applications to web3 with decentralised applications and
-                  intelligent contracts thanks to blockchain. I'm currently
-                  training in web and mobile development with the HITECH
-                  training organisation in Douala, Cameroon. Highly motivated to
-                  continue, I'm looking for a job as a web developer (full-stack
-                  Javascript) or mobile developer (react native) to gain
-                  experience.
+               <p className="mt-0 pt-0" style={{fontSize:"14px"}}>
+                  I've been an electronics technician for over 2 years, and I'm
+                  passionate about innovative technologies ranging from web2
+                  with standard web applications to web3 with decentralised
+                  applications and smart contracts thanks to blockchain. I'm
+                  currently training in web and mobile development with the
+                  HITECH training organisation in Douala, Cameroon. Highly
+                  motivated to continue, I'm looking for a job as a web
+                  developer (full-stack Javascript) or mobile developer (react
+                  native) to gain experience.
                </p>
                <p className="icones">
                   <a href="https://www.tiktok.com/@juniordev3?_t=8mVGOsYQfj6&_r=1">
