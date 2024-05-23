@@ -15,13 +15,15 @@ function Home() {
                   <span className="fw-bold typetext"></span>
                </p>
                <p className="">
-                  electronic technician for more than 3 years, i have a passion
-                  for innovative technologies, in particular blockchain. I am
-                  currently training in web and mobile development with the
-                  HITECH training organisation in Douala, Cameroon. highly
-                  motivated to continue, i am looking for a position as a web
-                  developer (full-stack Javascript) or mobile (react native) to
-                  gain experience
+                  An electrical technician for over 2 years, I'm passionate
+                  about innovative technologies ranging from web2 with standard
+                  web applications to web3 with decentralised applications and
+                  intelligent contracts thanks to blockchain. I'm currently
+                  training in web and mobile development with the HITECH
+                  training organisation in Douala, Cameroon. Highly motivated to
+                  continue, I'm looking for a job as a web developer (full-stack
+                  Javascript) or mobile developer (react native) to gain
+                  experience.
                </p>
                <p className="icones">
                   <a href="https://www.tiktok.com/@juniordev3?_t=8mVGOsYQfj6&_r=1">
@@ -39,7 +41,7 @@ function Home() {
                </p>
                <a
                   download={"cv"}
-                  href="/images/cv.png"
+                  href="/images/cv.pdf"
                   className="btn mt-3 mb-3 fw-bold  rounded-pill download"
                >
                   Download CV
