@@ -9,8 +9,8 @@ function NavBar({ a1, a2, a3, a4, a5 }) {
 
       <nav className=" fixed-top navbar navbar-expand-lg">
          <div className="container-fluid">
-            <a className="navbar-brand" href="#home">
-               PortFolio
+            <a className="navbar-brand ms-5 fs-4" href="#home">
+            <span style={{ color: "#0EF" ,fontWeight:"bold",fontStyle:"italic"}}>Ta</span>kam
             </a>
             <button
                style={{ backgroundColor: "white"}}
