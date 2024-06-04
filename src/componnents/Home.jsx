@@ -32,7 +32,7 @@ function Home() {
                   <a href="https://x.com/Takamloicjunior?s=09">
                      <i className="fa-brands i fa-x-twitter"></i>
                   </a>
-                  <a href="https://www.linkedin.com/in/loic-junior-takam-2b12822a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                  <a href="https://www.linkedin.com/in/loic-junior-takam">
                      <i className="fa-brands i fa-linkedin-in"></i>
                   </a>
                   <a href="https://github.com/takamdev">
