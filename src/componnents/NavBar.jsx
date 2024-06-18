@@ -1,3 +1,4 @@
+import { CgMenuGridR } from "react-icons/cg"; 
 
 function NavBar({ a1, a2, a3, a4, a5 }) {
    let getNav = document.querySelector('#menu');  
@@ -9,13 +10,13 @@ function NavBar({ a1, a2, a3, a4, a5 }) {
 
       <nav className=" fixed-top navbar navbar-expand-lg">
          <div className="container-fluid">
-            <a className="navbar-brand ms-5 fs-4" href="#home">
+            <a className="navbar-brand ms-4 fs-4" href="#home">
             <span style={{ color: "#0EF" ,fontWeight:"bold",fontStyle:"italic"}}>Ta</span>kam
             </a>
             <button
-               style={{ backgroundColor: "white"}}
-               className="navbar-toggler"
+               className="border-0 btn-outline-danger me-4"
                type="button"
+               style={{color:"#0EF",transform:"scale(2)"}}
                data-bs-toggle="collapse"
                data-bs-target="#navbarSupportedContent"
                aria-controls="navbarSupportedContent"
@@ -23,10 +24,7 @@ function NavBar({ a1, a2, a3, a4, a5 }) {
                aria-label="Toggle navigation"
                id="menu"
             >
-               <span
-                  className="navbar-toggler-icon"
-                 
-               ></span>
+            <CgMenuGridR  style={{color:"#0EF",transform:"scale(1.5)"}}  />
             </button>
             <div
                className= {`collapse navbar-collapse`}
