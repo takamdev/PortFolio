@@ -26,20 +26,21 @@ function Home() {
                   native) to gain experience.
                </p>
                <p className="icones">
-                  <a href="https://www.tiktok.com/@juniordev3?_t=8mVGOsYQfj6&_r=1">
+                  <a target="blank" href="https://www.tiktok.com/@juniordev3?_t=8mVGOsYQfj6&_r=1">
                      <i className="fa-brands i fa-tiktok"></i>
                   </a>
-                  <a href="https://x.com/Takamloicjunior?s=09">
+                  <a target="blank" href="https://x.com/Takamloicjunior?s=09">
                      <i className="fa-brands i fa-x-twitter"></i>
                   </a>
-                  <a href="https://www.linkedin.com/in/loic-junior-takam">
+                  <a target="blank" href="https://www.linkedin.com/in/loic-junior-takam">
                      <i className="fa-brands i fa-linkedin-in"></i>
                   </a>
-                  <a href="https://github.com/takamdev">
+                  <a target="blank" href="https://github.com/takamdev">
                      <i className="fa-brands i fa-github"></i>
                   </a>
                </p>
                <a
+                  target="blank"
                   download={"cv"}
                   href="/images/cv.pdf"
                   className="btn mt-3 mb-3 fw-bold  rounded-pill download"
