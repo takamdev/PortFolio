@@ -56,6 +56,14 @@ nav {
          color: var(--main-color) !important;
       }
    }
+
+   #menu{
+   background-color: inherit;
+   display: none;
+   @media screen and (max-width:990px) {
+      display: block;
+   }
+   }
 }
 .cummunButton {
    .download {
