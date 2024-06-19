@@ -32,7 +32,7 @@ function PortFolio() {
                        <p className="fs-4">A site for learning a number of IT professions particularly programming</p>
                        <p className="hstack">
                        <a className="text-secondary fs-5" href="https://e-learningdev.netlify.app/"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
-                       <a className="text-secondary fs-5 ms-auto" href="https://github.com/takamdev/CoursEnLigne"><i className="fa-brands i fa-github"></i></a>
+                       <a className="text-secondary fs-5 ms-auto" href="https://github.com/takamdev/CoursEnLignereact"><i className="fa-brands i fa-github"></i></a>
                        </p>
                 </div>
             </div>
