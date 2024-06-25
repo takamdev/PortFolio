@@ -233,6 +233,10 @@ nav #menu {
   height: 300px;
   padding-left: 20px;
   color: var(--text-color);
+  resize: none;
+}
+#contact textarea::-webkit-scrollbar {
+  display: none;
 }
 #contact .download {
   background-color: var(--main-color);
