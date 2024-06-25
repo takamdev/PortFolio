@@ -23,11 +23,7 @@ const schema = yup
          ),
       Subject: yup
          .string()
-         .required("champ requis")
-         .matches(
-            /^[\w\.-]+@[a-zA-Z\d\.-]+\.[a-zA-Z]{2,}$/,
-            "entrez une email valide"
-         ),
+         .required("champ requis"),
       Message: yup
          .string()
          .required("champ requis")
@@ -127,7 +123,7 @@ function Contact() {
                   <input
                      type="text"
                      className="form w-100"
-                     placeholder="Email Subject"
+                     placeholder="Subject"
                      {...register("Subject")}
                   />
                   <p className="text-danger">{errors.Subject?.message}</p>
