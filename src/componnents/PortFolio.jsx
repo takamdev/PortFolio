@@ -58,8 +58,15 @@ function PortFolio() {
                 </div>
              
               <div className="card border-0 scrollBottom cardServive text-center mt-4 mb-3 col-sm-12 col-md-6 col-lg-4 p-0 ">
-                <img id="image"   className="m-0 p-0 w-100 h-100 " style={{borderRadius:"20px"}} src="/images/portfolio5.jpg" alt="image" />
-                <div className="w-100 h-100  text-white servicebottom"></div>
+                <img id="image"   className="m-0 p-0 w-100 h-100 " style={{borderRadius:"20px"}} src="/images/portfolio5.png" alt="image" />
+                <div className="w-100 h-100  text-white servicebottom">
+                <p className="fs-1 fw-bold">ChatBot with GPT API</p>
+                       <p className="fs-4">a chatbot using an artificial intelligence model from Hugging-Face</p>
+                       <p className="hstack">
+                       <a className="text-secondary fs-5" href="https://chatbot-takam.netlify.app/"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                       <a className="text-secondary fs-5 ms-auto" href="https://github.com/takamdev/chapBot"><i className="fa-brands i fa-github"></i></a>
+                       </p>
+                </div>
               </div>
               <div className="card border-0 scrollBottom cardServive text-center mt-4 mb-3 col-sm-12 col-md-6 col-lg-4 p-0 ">
                 <img id="image"   className="m-0 p-0 w-100 h-100 " style={{borderRadius:"20px"}} src="/images/portfolio6.jpg" alt="image" />
