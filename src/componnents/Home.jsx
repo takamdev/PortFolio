@@ -14,7 +14,7 @@ function Home() {
                   <br />
                   <span className="fw-bold typetext"></span>
                </p>
-               <p className="mt-0 pt-0" style={{fontSize:"14px"}}>
+               <p className="mt-0 pt-0" style={{ fontSize: "14px" }}>
                   I've been an electronics technician for over 2 years, and I'm
                   passionate about innovative technologies ranging from web2
                   with standard web applications to web3 with decentralised
@@ -26,13 +26,19 @@ function Home() {
                   native) to gain experience.
                </p>
                <p className="icones">
-                  <a target="blank" href="https://www.tiktok.com/@juniordev3?_t=8mVGOsYQfj6&_r=1">
+                  <a
+                     target="blank"
+                     href="https://www.tiktok.com/@juniordev3?_t=8mVGOsYQfj6&_r=1"
+                  >
                      <i className="fa-brands i fa-tiktok"></i>
                   </a>
                   <a target="blank" href="https://x.com/Takamloicjunior?s=09">
                      <i className="fa-brands i fa-x-twitter"></i>
                   </a>
-                  <a target="blank" href="https://www.linkedin.com/in/loic-junior-takam">
+                  <a
+                     target="blank"
+                     href="https://www.linkedin.com/in/loic-junior-takam"
+                  >
                      <i className="fa-brands i fa-linkedin-in"></i>
                   </a>
                   <a target="blank" href="https://github.com/takamdev">

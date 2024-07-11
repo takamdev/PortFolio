@@ -2,8 +2,7 @@ function About() {
    return (
       <section id="about" className="pt-2 pt-lg-0 container-fluid">
          <div className="row">
-            
-         <div className="col-sm-12 col-sm-6 col-lg-6 ps-5">
+            <div className="col-sm-12 col-sm-6 col-lg-6 ps-5">
                <p className="heading" style={{ textAlign: "justify" }}>
                   <span className="display-6 fw-bold">
                      About <span style={{ color: "#0EF" }}>Me</span>
@@ -27,13 +26,21 @@ function About() {
                      in blockchain technology and artificial intelligence.
                   </p>
                   <p>
-                  <span className="pb-5 fs-4 fw-bold" style={{ color: "#0EF" }}>Persevering</span> <br /> 
-                 
-                  <span style={{ color: "#0EF" }}>My professional reconversion</span> in programming
-                     has not been easy. the search for suitable training and
-                     perseverance in my learning. these difficulties have in no
-                     way diminished my motivation and I intend to <span style={{ color: "#0EF" }}>persevere</span> in
-                     this field!
+                     <span
+                        className="pb-5 fs-4 fw-bold"
+                        style={{ color: "#0EF" }}
+                     >
+                        Persevering
+                     </span>{" "}
+                     <br />
+                     <span style={{ color: "#0EF" }}>
+                        My professional reconversion
+                     </span>{" "}
+                     in programming has not been easy. the search for suitable
+                     training and perseverance in my learning. these
+                     difficulties have in no way diminished my motivation and I
+                     intend to <span style={{ color: "#0EF" }}>persevere</span>{" "}
+                     in this field!
                   </p>
                </div>
             </div>
@@ -44,7 +51,6 @@ function About() {
                   alt="image"
                />
             </div>
-
          </div>
       </section>
    );

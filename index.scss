@@ -29,9 +29,6 @@ body {
 
 // navBar
 
-
-
-
 nav {
    background-color: var(--bg-color);
    padding: 20px;
@@ -57,12 +54,12 @@ nav {
       }
    }
 
-   #menu{
-   background-color: inherit;
-   display: none;
-   @media screen and (max-width:990px) {
-      display: block;
-   }
+   #menu {
+      background-color: inherit;
+      display: none;
+      @media screen and (max-width: 990px) {
+         display: block;
+      }
    }
 }
 .cummunButton {
@@ -79,7 +76,7 @@ nav {
 }
 .cummunContent {
    background-color: var(--second-bg-color);
-     height: 350px;
+   height: 350px;
    box-shadow: 0px 1px 5px 3px #323946;
 }
 // Home
@@ -152,37 +149,36 @@ nav {
 }
 
 #service {
-   .cardServive:hover{
-      transform: scale(.82) !important;
-      
+   .cardServive:hover {
+      transform: scale(0.82) !important;
+
       border: 2px solid var(--main-color) !important;
    }
    .cardServive {
-
-      .icone{
-         color:  var(--main-color);
+      .icone {
+         color: var(--main-color);
          padding-bottom: 10px;
       }
       border-radius: 20px;
-      transition: all ease-in-out .3s;
+      transition: all ease-in-out 0.3s;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      gap:3px;
+      gap: 3px;
       @extend .cummunContent;
       p {
          color: var(--text-color);
       }
-      transform: scale(.8);
+      transform: scale(0.8);
       height: 400px;
       @extend .cummunButton;
    }
 }
 
-.serviceModal{
-   .icone{
-      color:  var(--main-color);
+.serviceModal {
+   .icone {
+      color: var(--main-color);
       padding-bottom: 10px;
    }
    border-radius: 7px;
@@ -191,27 +187,25 @@ nav {
    p {
       color: var(--text-color);
    }
-   .modal-header{
+   .modal-header {
       border-color: #0ef;
-      
    }
-
 }
 #portfolio {
-   .cardServive  {
+   .cardServive {
       position: relative !important;
-   
+
       background-color: inherit;
       height: 350px;
       transform: scale(0.9);
       border-radius: 30px;
    }
-   .servicebottom{
-      background: linear-gradient(rgba(0, 0, 0, 0.1),var(--main-color) );
+   .servicebottom {
+      background: linear-gradient(rgba(0, 0, 0, 0.1), var(--main-color));
       position: absolute !important;
       visibility: hidden !important;
       transform: translateY(80%) !important;
-      transition:.5s ease !important;
+      transition: 0.5s ease !important;
       border-bottom-left-radius: 20px;
       border-bottom-right-radius: 20px;
       padding: 0;
@@ -221,34 +215,29 @@ nav {
       align-items: center;
       flex-direction: column;
       padding: 40px;
-      a{
+      a {
          background-color: white;
          width: 50px;
          height: 50px;
          padding-top: 13px;
          border-radius: 100%;
       }
-      @media screen and (max-width:900px) {
+      @media screen and (max-width: 900px) {
          visibility: visible !important;
          transform: translateY(0%) !important;
       }
    }
 
-   .card:hover .servicebottom{
-        
-         visibility: visible !important;
-         transform: translateY(0%) !important;
-      
+   .card:hover .servicebottom {
+      visibility: visible !important;
+      transform: translateY(0%) !important;
    }
-   img{
-      transition: .5s ease !important;
-     
-}
-   .card:hover img{
-     transform: scale(1.02);
+   img {
+      transition: 0.5s ease !important;
    }
-   
-  
+   .card:hover img {
+      transform: scale(1.02);
+   }
 }
 
 #contact {
@@ -270,7 +259,7 @@ nav {
       padding-left: 20px;
       color: var(--text-color);
       resize: none;
-      &::-webkit-scrollbar{
+      &::-webkit-scrollbar {
          display: none;
       }
    }

@@ -107,10 +107,9 @@ function Services() {
                <p className=" fw-bold text-center mb-4">
                   {" "}
                   <span className="icone pb-1">
-                  <FcElectronics 
-                        style={{ transform: "scale(4)" }} />
-                     </span> <br /> <br />{" "}
-                  <span className="fs-3">Electronics</span>
+                     <FcElectronics style={{ transform: "scale(4)" }} />
+                  </span>{" "}
+                  <br /> <br /> <span className="fs-3">Electronics</span>
                </p>
                <ul className=" fs-6">
                   <li>Technical Skills : Circuit design ,</li>
