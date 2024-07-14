@@ -90,15 +90,15 @@ function PortFolio() {
                      Backend for an online restaurant website
                   </p>
                   <p className="hstack">
-                     <a
+                     <a 
                         className="text-secondary fs-5"
-                        href="https://github.com/takamdev/BackendRestaurant"
+                        href="https://foodie-nine-omega.vercel.app/"
                      >
                         <i className="fa-solid fa-arrow-up-right-from-square"></i>
                      </a>
                      <a
                         className="text-secondary fs-5 ms-auto"
-                        href="https://github.com/takamdev/CoursEnLigne"
+                        href="https://github.com/takamdev/BackendRestaurant"
                      >
                         <i className="fa-brands i fa-github"></i>
                      </a>
@@ -123,7 +123,7 @@ function PortFolio() {
                      className="text-secondary fs-5"
                      href="https://github.com/takamdev/tAPI_Whatsapp"
                   >
-                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                     <i className="fa-brands i fa-github"></i>
                   </a>
                </div>
             </div>
