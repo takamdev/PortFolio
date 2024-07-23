@@ -16,7 +16,7 @@ function NavBar({ a1, a2, a3, a4, a5 }) {
                >
                   L
                </span>
-               Oïc
+               oïc
             </a>
             <button
                className="border-0 btn-outline-danger me-4"
