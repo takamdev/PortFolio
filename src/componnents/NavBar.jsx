@@ -6,7 +6,7 @@ function NavBar({ a1, a2, a3, a4, a5 }) {
    return (
       <nav className=" fixed-top navbar navbar-expand-lg">
          <div className="container-fluid">
-            <a className="navbar-brand ms-4 fs-4" href="#home">
+            <a className="navbar-brand ms-4 fs-3" href="#home">
                <span
                   style={{
                      color: "#0EF",
