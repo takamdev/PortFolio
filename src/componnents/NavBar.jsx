@@ -14,9 +14,9 @@ function NavBar({ a1, a2, a3, a4, a5 }) {
                      fontStyle: "italic",
                   }}
                >
-                  Ta
+                  L
                </span>
-               kam
+               Oïc
             </a>
             <button
                className="border-0 btn-outline-danger me-4"
