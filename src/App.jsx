@@ -43,7 +43,7 @@ function App() {
       ScrollReveal({
          reset: true,
          distance: "100px",
-         duration: 2000,
+         duration: 1000,
       });
       ScrollReveal().reveal(".textHome , .heading", { origin: "top" });
       ScrollReveal().reveal(".left ", { origin: "left" });
