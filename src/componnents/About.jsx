@@ -1,8 +1,8 @@
 function About() {
    return (
-      <section id="about" className="pt-2 pt-lg-0 container-fluid">
-         <div className="row">
-            <div className="col-sm-12 col-sm-6 col-lg-6 ps-5">
+      <section id="about" className="pt-lg-0 mt-5 container-fluid">
+         <div className="row flex-lg-row-reverse">
+            <div className="col-sm-12 mt-md-0 mt-sm-0 pt-sm-0 pt-md-0 mt-lg-5 pt-lg-5 col-sm-6 col-lg-6 ps-5">
                <p className="heading" style={{ textAlign: "justify" }}>
                   <span className="display-6 fw-bold">
                      About <span style={{ color: "#0EF" }}>Me</span>
@@ -44,9 +44,9 @@ function About() {
                   </p>
                </div>
             </div>
-            <div className="col-sm-12 col-sm-6 col-lg-6 justify-content-center ">
+            <div className="col-sm-12 col-sm-6 img-containter col-lg-6 justify-content-center ">
                <img
-                  src="/images/toff.png"
+                  src="/images/toff1.png"
                   className=" w-100 h-75 ms-auto me-auto toff"
                   alt="image"
                />
