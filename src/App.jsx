@@ -78,7 +78,6 @@ function App() {
                   portfolio: "",
                   contact: "",
                 }
-               console.log(id);
                setEtat(()=>{
                   return {
                      ...resetEtat,
