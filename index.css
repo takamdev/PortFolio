@@ -85,7 +85,7 @@ nav #menu {
 @media screen and (max-width: 750px) {
   .imgtoff, #about .toff, #home .toff {
     margin-top: 30px;
-    height: 500px !important;
+    height: 480px !important;
     width: 100% !important;
     margin: 0 !important;
   }
