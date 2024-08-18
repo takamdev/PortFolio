@@ -1,6 +1,6 @@
 function About() {
    return (
-      <section id="about" className="pt-lg-0 mt-5 container-fluid">
+      <section id="about" className="pt-lg-0 mt-5 pt-5 container-fluid">
          <div className="row flex-lg-row-reverse">
             <div className="col-sm-12 mt-md-0 mt-sm-0 pt-sm-0 pt-md-0 mt-lg-5 pt-lg-5 col-sm-6 col-lg-6 ps-5">
                <p className="heading" style={{ textAlign: "justify" }}>

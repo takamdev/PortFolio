@@ -84,6 +84,9 @@ nav {
    animation: tof 4s ease-in-out infinite;
    @media screen and (max-width: 750px) {
       margin-top: 30px;
+      height: 500px !important;
+      width: 100% !important;
+      margin: 0 !important;
    }
    border-radius: 40px;
 }
