@@ -20,7 +20,7 @@ export const useStore = create((set) => ({
 }));
 
 function App() {
-   const [element, setElement] = useState({});
+   const [element, setElement] = useState([]);
    const modTitle = useStore((state) => state.modTitle);
    const textMod = useStore((state) => state.textMod);
    const [etat, setEtat] = useState({
@@ -29,16 +29,16 @@ function App() {
       service: "",
       portfolio: "",
       contact: "",
-   });
+    });
 
    useEffect(() => {
-      setElement({
-         home: document.querySelector("#home"),
-         about: document.querySelector("#about"),
-         service: document.querySelector("#service"),
-         portfolio: document.querySelector("#portfolio"),
-         contact: document.querySelector("#contact"),
-      });
+      setElement([
+         document.querySelector("#home"),
+         document.querySelector("#about"),
+         document.querySelector("#service"),
+         document.querySelector("#portfolio"),
+         document.querySelector("#contact"),
+      ]);
 
       ScrollReveal({
          reset: true,
@@ -62,109 +62,49 @@ function App() {
       });
    }, []);
 
-   function controleNav() {
-      for (let key in element) {
-         let courentElemene = element[key];
-         let courentElemeneRect = element[key].getBoundingClientRect();
-         switch (key) {
-            case "home":
-               if (
-                  courentElemene.offsetHeight - 80 >=
-                     Math.abs(courentElemeneRect.top) &&
-                  courentElemeneRect.top < 80
-               ) {
-                  setEtat({
-                     home: "active",
-                     about: "",
-                     service: "",
-                     portfolio: "",
-                     contact: "",
-                  });
-               }
-               break;
-            case "about":
-               if (
-                  courentElemene.offsetHeight - 80 >=
-                     Math.abs(courentElemeneRect.top) &&
-                  courentElemeneRect.top < 120
-               ) {
-                  setEtat({
-                     home: "",
-                     about: "active",
-                     service: "",
-                     portfolio: "",
-                     contact: "",
-                  });
-               }
-               break;
+   window.onscroll= ()=>{
 
-            case "service":
-               if (
-                  courentElemene.offsetHeight - 80 >=
-                     Math.abs(courentElemeneRect.top) &&
-                  courentElemeneRect.top < 120
-               ) {
-                  setEtat({
-                     home: "",
-                     about: "",
-                     service: "active",
-                     portfolio: "",
-                     contact: "",
-                  });
-               }
-               break;
-
-            case "portfolio":
-               if (
-                  courentElemene.offsetHeight - 80 >=
-                     Math.abs(courentElemeneRect.top) &&
-                  courentElemeneRect.top < 120
-               ) {
-                  setEtat({
-                     home: "",
-                     about: "",
-                     service: "",
-                     portfolio: "active",
-                     contact: "",
-                  });
-               }
-               break;
-
-            case "contact":
-               if (
-                  courentElemene.offsetHeight - 80 >=
-                     Math.abs(courentElemeneRect.top) &&
-                  courentElemeneRect.top < 150
-               ) {
-                  setEtat({
-                     home: "",
-                     about: "",
-                     service: "",
-                     portfolio: "",
-                     contact: "active",
-                  });
-               }
-               break;
-         }
-      }
+         element.forEach(sec => {
+             let top = window.scrollY;
+             let offset = sec.offsetTop -150;
+             let heigth = sec.offsetHeight;
+             let id = sec.getAttribute('id');
+     
+             if(top >= offset && top < offset + heigth) {
+               let resetEtat = {
+                  home: "",
+                  about: "",
+                  service: "",
+                  portfolio: "",
+                  contact: "",
+                }
+               console.log(id);
+               setEtat(()=>{
+                  return {
+                     ...resetEtat,
+                     [id]:"active"
+                  }
+               })
+             }
+      
+         });
+     
+  
+        
+     
+     
    }
-   window.addEventListener("scroll", function () {
-      // a partie du moment une div est a une position pa rapport au haut de 80px on active un lien
-      try {
-         controleNav();
-      } catch (error) {
-         console.log();
-      }
-   });
+ 
+
 
    return (
       <>
          <NavBar
-            a1={etat.home}
-            a2={etat.about}
-            a3={etat.service}
-            a4={etat.portfolio}
-            a5={etat.contact}
+            a1={etat.home}//home
+            a2={etat.about}//about
+            a3={etat.service}//service
+            a4={etat.portfolio}//portfolio
+            a5={etat.contact}//contact
          />
          <main
             className="ms-0 me-0 ps-0 pe-0 justify-content-center"
