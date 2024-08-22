@@ -74,7 +74,7 @@ function Services() {
                   data-bs-target="#ModalExample"
                   className="btn download rounded-pill mt-2"
                >
-                  Read More
+                    See More
                </button>
             </div>
             <div className="border-0 scrollBottom  cardServive  mb-3 col-sm-12 col-md-6 col-lg-4  ">
@@ -100,7 +100,7 @@ function Services() {
                   data-bs-target="#ModalExample"
                   className="btn download rounded-pill mt-5"
                >
-                  Read More
+                  See More
                </button>
             </div>
             <div className=" border-0 scrollBottom cardServive  mb-3 mt-md-4 mt-lg-0 mt-sm-0 col-sm-12 col-md-12 col-lg-4 ">
@@ -123,7 +123,7 @@ function Services() {
                   data-bs-target="#ModalExample"
                   className="btn download rounded-pill mt-5"
                >
-                  Read More
+                   See More
                </button>
             </div>
          </div>

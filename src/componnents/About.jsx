@@ -47,7 +47,7 @@ function About() {
             <div className="col-sm-12 col-sm-6 img-containter col-lg-6 justify-content-center ">
                <img
                   src="/images/toff1.png"
-                  className=" w-100 h-75 ms-auto me-auto toff"
+                  className=" w-100 h-75 heading ms-auto me-auto"
                   alt="image"
                />
             </div>

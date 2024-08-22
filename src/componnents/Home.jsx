@@ -37,7 +37,7 @@ function Home() {
                   </a>
                   <a
                      target="blank"
-                     href="https://www.linkedin.com/in/loic-junior-takam"
+                     href="https://www.linkedin.com/in/lo%C3%AFc-junior-takam?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3Bih6I0EwtTNSj%2FwWR%2FAWN1A%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile"
                   >
                      <i className="fa-brands i fa-linkedin-in"></i>
                   </a>
@@ -47,7 +47,7 @@ function Home() {
                </p>
                <a
                   target="blank"
-                  download={"cv"}
+                  download="cv"
                   href="/images/cv.pdf"
                   className="btn mt-3 mb-3 fw-bold  rounded-pill download"
                >

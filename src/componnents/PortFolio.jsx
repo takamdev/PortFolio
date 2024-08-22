@@ -1,7 +1,5 @@
 function PortFolio() {
-   const ReDirection = (url) => {
-      window.location.href = url;
-   };
+
 
    return (
       <section id="portfolio">
@@ -13,12 +11,6 @@ function PortFolio() {
          <div className="row container ms-auto me-auto">
             <div className="card border-0 scrollBottom cardServive text-center mt-4 p-0 mb-3 col-sm-12 col-md-6 col-lg-4  ">
                <img
-                  id="image"
-                  onClick={() => {
-                     ReDirection(
-                        "https://github.com/takamdev/AfricaSpace-react"
-                     );
-                  }}
                   role="button"
                   className="m-0 p-0 w-100 h-100 "
                   style={{ borderRadius: "20px" }}
@@ -35,12 +27,14 @@ function PortFolio() {
                      <a
                         className="text-secondary fs-5"
                         href="https://africa-space-react-httc.netlify.app/"
+                         target="blank"
                      >
                         <i className="fa-solid fa-arrow-up-right-from-square"></i>
                      </a>
                      <a
                         className="text-secondary fs-5 ms-auto"
                         href="https://github.com/takamdev/AfricaSpace-react"
+                         target="blank"
                      >
                         <i className="fa-brands i fa-github"></i>
                      </a>
@@ -63,13 +57,15 @@ function PortFolio() {
                   <p className="hstack">
                      <a
                         className="text-secondary fs-5"
-                        href="https://e-learningdev.netlify.app/"
+                        href="https://cours-en-ligne.vercel.app/"
+                         target="blank"
                      >
                         <i className="fa-solid fa-arrow-up-right-from-square"></i>
                      </a>
                      <a
                         className="text-secondary fs-5 ms-auto"
                         href="https://github.com/takamdev/CoursEnLignereact"
+                         target="blank"
                      >
                         <i className="fa-brands i fa-github"></i>
                      </a>
@@ -93,11 +89,13 @@ function PortFolio() {
                      <a 
                         className="text-secondary fs-5"
                         href="https://foodie-nine-omega.vercel.app/"
+                         target="blank"
                      >
                         <i className="fa-solid fa-arrow-up-right-from-square"></i>
                      </a>
                      <a
                         className="text-secondary fs-5 ms-auto"
+                         target="blank"
                         href="https://github.com/takamdev/BackendRestaurant"
                      >
                         <i className="fa-brands i fa-github"></i>
@@ -122,6 +120,7 @@ function PortFolio() {
                   <a
                      className="text-secondary fs-5"
                      href="https://github.com/takamdev/tAPI_Whatsapp"
+                      target="blank"
                   >
                      <i className="fa-brands i fa-github"></i>
                   </a>
@@ -145,13 +144,15 @@ function PortFolio() {
                   <p className="hstack">
                      <a
                         className="text-secondary fs-5"
-                        href="https://chatbot-takam.netlify.app/"
+                        href="https://chap-bot.vercel.app/"
+                         target="blank"
                      >
                         <i className="fa-solid fa-arrow-up-right-from-square"></i>
                      </a>
                      <a
                         className="text-secondary fs-5 ms-auto"
                         href="https://github.com/takamdev/chapBot"
+                        target="blank"
                      >
                         <i className="fa-brands i fa-github"></i>
                      </a>
@@ -163,10 +164,32 @@ function PortFolio() {
                   id="image"
                   className="m-0 p-0 w-100 h-100 "
                   style={{ borderRadius: "20px" }}
-                  src="/images/portfolio6.jpg"
+                  src="/images/portfolio6.png"
                   alt="image"
                />
-               <div className="w-100 h-100 text-white servicebottom"></div>
+               <div className="w-100 h-100 text-white servicebottom">
+
+               <p className="fs-1 fw-bold">API Consumption</p>
+                  <p className="fs-4">
+                  application for passport registration 
+                  </p>
+                  <p className="hstack">
+                     <a
+                        className="text-secondary fs-5"
+                        href="https://loic.zayado.net/"
+                         target="blank"
+                     >
+                        <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                     </a>
+                     <a
+                        className="text-secondary fs-5 ms-auto"
+                        href="https://github.com/takamdev/api-consommation"
+                         target="blank"
+                     >
+                        <i className="fa-brands i fa-github"></i>
+                     </a>
+                  </p>
+               </div>
             </div>
          </div>
       </section>
