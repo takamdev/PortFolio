@@ -60,7 +60,7 @@ function Services() {
                   <br /> <br /> <span className="fs-3">Web Developenment</span>
                </p>
                <ul className="fs-6">
-                  <li>Languages : JavaScript (ES6+) ,</li>
+                  <li>Languages : JavaScript (ES6+) ,TypeScript</li>
                   <li> HTML5 , CSS3 ( SASS )</li>
                   <li>Frameworks & Libraries : ReactJS , nextJS,</li>
                   <li>node.JS,express.js</li>
